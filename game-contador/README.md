@@ -1,12 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# PROYECTO: CONTADOR SOL vs LUNA
+## Descripción:
+Este proyecto consiste en una aplicación interactiva desarrollada con Vite y React, orientada a un público infantil.
+- La interfaz está dividida en dos secciones: una dedicada al Sol y otra a la Luna, donde los usuarios pueden votar por su favorito mediante botones.
+- Los votos se almacenan y actualizan en tiempo real, modificando una barra visual que representa el porcentaje de cada opción.
+- Se lleva la cuenta total de clicks realizados. 
+- El diseño está adaptado para resultar atractivo, dinámico y fácil de usar para niños de entre 5 y 10 años.
