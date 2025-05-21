@@ -107,3 +107,83 @@ button:hover {
   font-size: 1.2rem;
   color: #555;
 }
+
+/* Tablet (máx. 768px) */
+@media (max-width: 768px) {
+  .Container {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  .Container-titulo {
+    font-size: 2rem;
+  }
+
+  .Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Card-sol,
+  .Card-luna {
+    width: 80%;
+    min-width: unset;
+  }
+
+  .Card-sol h2,
+  .Card-luna h2 {
+    font-size: 1.5rem;
+  }
+
+  .Barra-container {
+    font-size: 0.9rem;
+    height: 35px;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .Total-clicks {
+    font-size: 1rem;
+  }
+}
+
+/* Móviles (máx. 480px) */
+@media (max-width: 480px) {
+  .Container {
+    padding: 1rem;
+    border-radius: 15px;
+  }
+
+  .Container-titulo {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .Card-sol,
+  .Card-luna {
+    width: 60%;
+  }
+
+  .Card-sol h2,
+  .Card-luna h2 {
+    font-size: 1.3rem;
+  }
+
+  .Barra-container {
+    font-size: 0.8rem;
+    height: 30px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .Total-clicks {
+    font-size: 0.95rem;
+  }
+}
+
